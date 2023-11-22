@@ -1,0 +1,63 @@
+
+/* Responsive adjustment */
+
+@media screen and (max-width: 768px) {
+
+    /* Blog posts */
+    .abc-ma-ele-blogs {
+        flex-direction: column;
+    }
+    .abc-ma-ele-single-first .abc-ma-ele-single-blog-thumbnail img {
+        width: 100%;
+    }
+    .abc-ma-ele-single-blog-content-area {
+        width: 75%;
+    }
+
+    /* Pricing Table */
+    .abc-ma-ele-pricing-pack-name {
+        min-height: 50px;
+        width: 200px;
+    }
+    .abc-ma-ele-pricing-pack-preiod {
+        top: 80px;
+    }
+    .abc-ma-ele-pricing-header-strock {
+        margin-top: -102px;
+    }
+    .abc-ma-ele-pricing-table-footer a {
+        padding: 15px 29px;
+    }
+
+    /* Icon Box */
+    .abctheme-icon-box-three-pos{
+        position: unset !important;
+    }
+    
+
+}
+
+@media screen and (max-width: 480px) {
+      
+    /* Blog posts */
+    .abc-ma-ele-single-blog-content-area {
+        width: 100%;
+        position: unset;
+    }
+    .abc-ma-ele-single-blog-area:not(.abc-ma-ele-single-first) {
+        flex-direction: column;
+    }
+    .abc-ma-ele-single-blog-thumbnail {
+        max-width: 100%;
+    }
+    .abc-ma-ele-single-blog-rem-posts .abc-ma-ele-single-blog-thumbnail img {
+        height: auto;
+    }
+
+    /* Pricing Table */
+    .abc-ele-pricing-table-footer a {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+}

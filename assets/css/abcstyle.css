@@ -1,0 +1,696 @@
+
+/* Blog Posts CSS */
+
+.abc-ma-ele-blogs {
+    display: flex;
+    gap: 30px;
+}
+
+.abc-ma-ele-single-first {
+    flex-basis: 50%;
+}
+
+.abc-ma-ele-single-blog-rem-posts {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.abc-ma-ele-single-blog-area:not(.abc-ma-ele-single-first) {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.abc-ma-ele-single-blog-area {
+    position: relative;
+}
+
+.abc-ma-ele-single-first .abc-ma-ele-single-blog-thumbnail {
+    max-width: 100%;
+}
+
+.abc-ma-ele-single-blog-thumbnail {
+    max-width: 240px;
+}
+
+.abc-ma-ele-single-blog-thumbnail img {
+    max-width: 100%;
+    border-radius: 10px !important;
+}
+
+.abc-ma-ele-single-blog-rem-posts .abc-ma-ele-single-blog-thumbnail img {
+    width: 100%;
+    height: 176px;
+    object-fit: cover;
+}
+
+.abc-ma-ele-single-blog-content-area {
+    width: 470px;
+    border-radius: 5px;
+    background: #F9F9F9;
+    box-shadow: 0px 0px 4px 0px rgba(24, 24, 24, 0.25);
+    padding: 20px 30px;
+    position: absolute;
+    left: 155px;
+    top: 15px;
+}
+
+.abc-ma-ele-single-first .abc-ma-ele-single-blog-content-area {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -100px;
+    z-index: 9;
+    position: relative;
+    padding: 35px 40px;
+    left: unset;
+    top: unset;
+}
+
+.abc-ma-ele-single-first .abc-ma-ele-single-blog-info {
+    margin-bottom: 15px;
+}
+
+.abc-ma-ele-single-blog-info {
+    margin-bottom: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+.abc-ma-ele-single-blog-info a {
+    color: #777;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.abc-ma-ele-single-blog-info i {
+    color: #448E08;
+    font-size: 16px;
+}
+
+.abc-ma-ele-single-blog-title h2 {
+    line-height: 1.5rem !important;
+}
+
+.abc-ma-ele-single-blog-title a {
+    color: #181818;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.abc-ma-ele-single-blog-button a {
+    color: #448E08;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+/* Pricing Table CSS */
+
+.abc-ma-ele-pricing-table-area {
+    border-bottom: 5px solid #448E08;
+    border-radius: 4px;
+    border-top: 0;
+    background: #f6f6f6;
+}
+
+.abc-ma-ele-pricing-table-header-area {
+    position: relative;
+}
+
+.abc-ma-ele-pricing-table-header {
+    position: relative;
+}
+
+.abc-ma-ele-pricing-table-header svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.abc-ma-ele-pricing-header-strock {
+    margin-top: -124px;
+}
+
+.abc-ma-ele-pricing-header-strock svg {
+    fill: #FD5009;
+}
+
+.abc-ma-ele-pricing-pack-name {
+    background-color: #F7F7F7;
+    text-align: center;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+    width: 235px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.abc-ma-ele-pricing-pack-name h3 {
+    color: #448E08;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.abc-ma-ele-pricing-pack-preiod {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+}
+
+.abc-ma-ele-pricing-pack-preiod h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.abc-ma-ele-pricing-pack-preiod h3 sub {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.abc-ma-ele-pricing-table-body {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.abc-ma-ele-pricing-table-body ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.abc-ma-ele-pricing-table-body ul li {
+    color: #181818;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.abc-ma-ele-pricing-table-body ul i {
+    color: #448E08;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.abc-ma-ele-pricing-table-footer {
+    text-align: center;
+}
+
+.abc-ma-ele-pricing-table-footer a {
+    background-color: #448E08;
+    display: inline-block;
+    padding: 20px 80px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 40px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+.abc-ma-ele-pricing-table-footer i {
+    margin-left: 10px;
+}
+
+.abc-ma-ele-pricing-table-area:hover .abc-ma-ele-pricing-table-footer a {
+    background-color: #FE4D05;
+}
+
+.abc-ma-ele-pricing-table-area:hover .abc-ma-ele-pricing-header-bg svg path {
+    fill: #FE4D05;
+}
+
+.abc-ma-ele-pricing-table-area:hover .abc-ma-ele-pricing-header-strock svg path {
+    fill: #448E08;
+}
+
+.abc-ma-ele-pricing-table-area:hover .abc-ma-ele-pricing-pack-name h3 {
+    color: #FE4D05;
+}
+
+.abc-ma-ele-pricing-table-area:hover {
+    border-color: #FE4D05;
+}
+
+.abc-ma-ele-pricing-table-footer a,
+.abc-ma-ele-pricing-header-bg svg path,
+.abc-ma-ele-pricing-header-strock svg path,
+.abc-ma-ele-pricing-pack-name h3,
+.abc-ma-ele-pricing-table-area {
+    transition: all 0.3s ease;
+}
+
+.abc-ma-ele-pricing-recommended {
+    position: absolute;
+    top: -36px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.abc-ma-ele-pricing-recommended:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 36px 13px;
+    border-color: transparent transparent #448E08 transparent;
+}
+
+.abc-ma-ele-pricing-recommended span {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 20px;
+    background-color: #FE4D05;
+    border-radius: 0 3px 0 0;
+}
+
+.abc-ep-recommended-left.abc-ma-ele-pricing-recommended {
+    position: absolute;
+    top: 35px;
+    left: -29px;
+    border-radius: 0 0 0 0;
+    transform: rotate(270deg);
+    z-index: 9;
+    right: inherit;
+}
+
+.abc-ep-recommended-left.abc-ma-ele-pricing-recommended:after {
+    content: '';
+    position: absolute;
+    top: -10.51px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 0px 0px 15px;
+    border-color: transparent transparent transparent #448E08;
+}
+
+.abc-ep-recommended-left.abc-ma-ele-pricing-recommended::before {
+    display: none;
+}
+
+.abc-ma-ele-pricing-table-area:hover .abc-ma-ele-pricing-recommended span {
+    background-color: #448E08;
+}
+
+.abc-ma-ele-pricing-table-area:hover .abc-ep-recommended-left.abc-ma-ele-pricing-recommended:after {
+    border-color: transparent transparent transparent #448E08;
+}
+
+
+/* ABC Section Title */
+.abc-ma-elementor-sec-title-divider {
+    background: #458f0c;
+    display:  inline-block;
+    position: relative;
+}
+
+.abc-ma-elementor-sec-title {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Icon Box CSS */
+
+.abc-ma-elementor-icon-box-area {
+    background: #F9F9F9;
+    text-align: center;
+    padding: 40px 30px;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+
+}
+
+.abc-ma-elementor-icon-box-icon {
+    position: relative;
+}
+
+.abc-ma-ele-icon-box-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.abc-ma-ele-icon-box-normal svg path {
+    /* stroke: red; */
+}
+
+.abc-ma-ele-icon-box-hover svg path {
+    /* fill: blue; */
+}
+
+.abc-ma-elementor-icon-box-icon img {}
+
+.abc-ma-elementor-icon-box-title {
+    margin-top: 30px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.abc-ma-elementor-icon-box-content p {
+    margin-top: 25px;
+    color: #717171;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 173.333% */
+    text-transform: capitalize;
+}
+
+.abc-ma-elementor-icon-box-button a {
+    margin-top: 30px;
+    background-color: #448E08;
+    padding: 15px 5px;
+    border-style: solid;
+    border-width: 0px 0 0 5px;
+    border-color: #FE4D05;
+    display: inline-block;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+}
+
+.abc-ma-elementor-icon-box-button a i {
+    margin-left: 10px;
+}
+
+.abc-ma-elementor-icon-box-area:hover {
+    background-color: #448E08;
+    border-radius: 100px 0px;
+
+}
+
+.abc-ma-elementor-icon-box-area:hover .abc-ma-elementor-icon-box-title,
+.abc-ma-elementor-icon-box-area:hover .abc-ma-elementor-icon-box-content p {
+    color: white;
+}
+
+.abc-ma-elementor-icon-box-area:hover .abc-ma-elementor-icon-box-button a {
+    color: #448E08;
+    background-color: #fff;
+}
+.abc-ma-single-icon-box-three-area {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Shape Animation CSS */
+
+.abc-ma-ele-shape {
+    width:200px;
+    height:200px; 
+    background-color: #448E08;  
+ }
+
+ .abc-ma-shape-circle.abc-ma-ele-shape {
+    border-radius: 100%;    
+ }
+
+.ABCxAxisMove {
+    animation: ABCxAxisMove 5s linear infinite;
+}
+
+.ABCyAxisMove {
+    animation: ABCyAxisMove 9s linear infinite;
+}
+.ABCtriAngleMove {
+    animation: ABCtriAngleMove 5s linear infinite;
+}
+
+.ABCSpin {
+    animation: ABCSpin 7s alternate infinite;
+}
+
+.ABCRotationMove {
+        animation: ABCRotationMove 8s alternate infinite;
+}
+
+.ABCTilt {
+    animation: ABCTilt 1s alternate infinite;
+}
+
+.ABCTimeLineAnimate {
+    animation: ABCTilt 1s alternate infinite;
+}
+
+.ABCSpinMove {
+    animation: ABCSpinMove 8s alternate infinite;
+}
+
+.ABCclockSpin {
+    animation: ABCSpinMove 3s alternate infinite;
+}
+
+.ABCAntiClockSpin {
+    animation: ABCSpinMove 3s alternate infinite;
+}
+
+.ABCRotating {
+	webkit-animation: ABCRotating 6s linear infinite;
+    -moz-animation: ABCRotating 6s linear infinite;
+    -ms-animation: ABCRotating 6s linear infinite;
+    -o-animation: ABCRotating 6s linear infinite; 
+	animation: ABCRotating 6s linear infinite;
+}
+
+/*----------------------------------
+ * Shape Keyframes Animation
+ * ---------------------------------*/
+
+@keyframes ABCRotating {
+	0% {
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes ABCTimeLineAnimate {
+    0% {
+        opacity: 0;
+        transform: rotate(0) translate(10px, 2px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(0deg) translate(38px, 1px);
+    }
+}
+
+@keyframes ABCxAxisMove {
+    0% {
+        transform: translateX(-25px)
+    }
+
+    50% {
+        transform: translateX(0)
+    }
+
+    100% {
+        transform: translateX(-25px)
+    }
+}
+
+@keyframes ABCyAxisMove {
+    0% {
+        transform: translateY(-30px)
+    }
+
+    50% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(-30px)
+    }
+}
+
+@keyframes ABCtriAngleMove {
+    0% {
+        transform: translate(-25px,25px)
+    }
+
+    33% {
+        transform: translate(-25px,-25px)
+    }
+
+    66% {
+        transform: translate(25px,-25px)
+    }
+
+    100% {
+        transform: translate(-25px,25px)
+    }
+}
+
+@keyframes ABCRotationMove {
+    0% {
+        transform: translate(-25px,0) rotate(0deg)
+    }
+
+    50% {
+        transform: translate(25px,25px) rotate(360deg)
+    }
+
+    100% {
+        transform: translate(0,-25px) rotate(0deg)
+    }
+}
+
+@keyframes ABCSpin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(360deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes ABCTilt {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    60% {
+        transform: rotate(0deg)
+    }
+
+    80% {
+        transform: rotate(-10deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes ABCclockSpin {
+    0% {
+        transform: translate(-50%,-50%) rotate(360deg)
+    }
+
+    100% {
+        transform: translate(-50%,-50%) rotate(0deg)
+    }
+}
+
+@keyframes ABCAntiClockSpin {
+    0% {
+        transform: translate(-50%,-50%) rotate(0deg)
+    }
+
+    100% {
+        transform: translate(-50%,-50%) rotate(360deg)
+    }
+}
+
+@keyframes ABCSpinMove {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(360deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+
+@keyframes ABCRipple{
+	0% { transform: scale(1); }
+	20% { transform: scale(1.1); }
+	40% { transform: scale(1.2); }
+	50% { transform: scale(1.3); }
+	70% { transform: scale(1.2); }
+	90% { transform: scale(1.1); }
+	100% { transform: scale(1); }
+}
