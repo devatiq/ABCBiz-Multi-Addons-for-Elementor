@@ -10,8 +10,8 @@ License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ABCMAFE
 Domain Path: /languages
-Elementor tested up to: 3.17.0
-Elementor Pro tested up to: 3.17.0
+Elementor tested up to: 3.17.1
+Elementor Pro tested up to: 3.17.1
 */
 
 

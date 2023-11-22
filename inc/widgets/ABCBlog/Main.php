@@ -1,15 +1,15 @@
 <?php
 namespace Inc\Widgets\ABCBlog;
 
-use Inc\Widgets\BaseWidget;
+use Inc\Widgets\ABCMAWidget;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
 use Elementor\Group_Control_Border;
 
-class Main extends BaseWidget
+class Main extends ABCMAWidget
 {
     // define protected variables...
-    protected $name = 'ABC-Elementor-ABCBlog';
+    protected $name = 'ABC-MA-Elementor-ABCBlog';
     protected $title = 'ABC Blog Posts';
     protected $icon = 'eicon-posts-group';
     protected $categories = [

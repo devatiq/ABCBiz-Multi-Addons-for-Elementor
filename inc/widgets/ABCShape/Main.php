@@ -2,12 +2,12 @@
 
 namespace Inc\Widgets\ABCShape;
 
-use Inc\Widgets\BaseWidget;
+use Inc\Widgets\ABCMAWidget;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Background;
 use Elementor\Group_Control_Border;
 
-class Main extends BaseWidget
+class Main extends ABCMAWidget
 {
     // define protected variables...
     protected $name = 'ABCMAFE-ABCShape';
