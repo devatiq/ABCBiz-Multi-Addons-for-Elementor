@@ -5,7 +5,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-
 use Inc\Widgets\BaseWidget;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
@@ -18,7 +17,7 @@ use Elementor\Group_Control_Background;
 class Main extends BaseWidget {
 
 	    // define protected variables...
-		protected $name = 'abc-sec-title';
+		protected $name = 'abc-ma-sec-title';
 		protected $title = 'ABC Section Title';
 		protected $icon = 'eicon-post-title';
 		protected $categories = [
@@ -33,7 +32,6 @@ class Main extends BaseWidget {
         return ['abc-ma-section-title-style'];
     }
 
-
 	/**
 	 * Register list widget controls.
 	 *
@@ -45,7 +43,7 @@ class Main extends BaseWidget {
 	protected function register_controls() {
 		//Template
 		$this->start_controls_section(
-			'abc-ma-elementor-icon-box',
+			'abc-ma-elementor-sec-title-section',
 			[
 				'label' => esc_html__( 'Title Content', 'ABCMAFE' ),
 				'tab' => Controls_Manager::TAB_CONTENT,
