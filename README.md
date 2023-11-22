@@ -1,8 +1,8 @@
 # ABCBiz Multi Addons for Elementor
 Contributors: atiqbd4ever\
 Donate link: [Buy Me A Coffee](https://www.paypal.com/donate/?hosted_button_id=AFMAVLDRP26K4)  
-Tags: Elementor Addons, Elementor Widgets, Elementor, Widgets, WordPress, Page Builder, Customization, Responsive Design, Drag and Drop, Frontend Editing, Widget Library
-Requires at least: 4.7  
+Tags: Elementor Addons, Elementor Widgets, Elementor, Widgets, WordPress, Page Builder, Customization, Responsive Design, Drag and Drop, Frontend Editing, Widget Library\
+Requires at least: 5.9  
 Tested up to: 6.4.1  
 Stable tag: 1.0  
 Requires PHP: 7.4
