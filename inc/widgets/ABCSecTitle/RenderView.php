@@ -9,13 +9,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $settings = $this->get_settings_for_display();
 $abc_sec_divider_visible = $settings['abc_ma_elementor_sec_title_div'] === 'yes';
-$abc_sec_title_alignment = $settings['abc_ma_elementor_sec_title_align'];
-$abc_sec_title_widget_classes = 'abc-ma-elementor-sec-title-area';
-
-// Add alignment class
-if ( $abc_sec_title_alignment ) {
-    $abc_sec_title_widget_classes .= ' abc-ma-elementor-title-align-' . $abc_sec_title_alignment;
-}
 
 ?>
 
