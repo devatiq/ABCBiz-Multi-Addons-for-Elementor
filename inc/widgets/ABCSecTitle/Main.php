@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-use Inc\Widgets\BaseWidget;
+use Inc\Widgets\ABCMAWidget;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
 use Elementor\Group_Control_Background;
@@ -14,7 +14,7 @@ use Elementor\Group_Control_Background;
  * Elementor List Widget.
  * @since 1.0.0
  */
-class Main extends BaseWidget {
+class Main extends ABCMAWidget {
 
 	    // define protected variables...
 		protected $name = 'abc-ma-sec-title';

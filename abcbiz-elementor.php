@@ -10,8 +10,8 @@ License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ABCMAFE
 Domain Path: /languages
-Elementor tested up to: 3.17.0
-Elementor Pro tested up to: 3.17.0
+Elementor tested up to: 3.17.1
+Elementor Pro tested up to: 3.17.1
 */
 
 
@@ -54,7 +54,6 @@ function  abcmafe_plugin_general_init() {
 
 }
 add_action( 'plugins_loaded', 'abcmafe_plugin_general_init' );
-
 
 // add custom our own category for this plugin 
 function abc_ma_add_elementor_widget_categories( $elements_manager ) {

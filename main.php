@@ -7,7 +7,7 @@ namespace ABCMAElEMENTOR;
  * Main plugin class that holds entire plugin.
  * @author  ABCTHEME
  * @since   v0.0.1
- * @version   v1.1.0
+ * @version   v1.0
  */
 
 // If this file is called directly, abort!!!
@@ -23,7 +23,7 @@ class ABCBIZMAElementorPack
 	 * @var string The addon version.
 	 */
 
-	public $version = '1.1.0';
+	public $version = '1.0';
 
 	/**
 	 * Minimum Elementor Version
@@ -31,7 +31,7 @@ class ABCBIZMAElementorPack
 	 * @since 1.0.0
 	 * @var string Minimum Elementor version required to run the addon.
 	 */
-	const MINIMUM_ELEMENTOR_VERSION = '3.17.0';
+	const MINIMUM_ELEMENTOR_VERSION = '3.16.0';
 
 	/**
 	 * Minimum PHP Version

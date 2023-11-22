@@ -2,7 +2,7 @@
 
 namespace Inc\Widgets\ABCPopup;
 
-use Inc\Widgets\BaseWidget;
+use Inc\Widgets\ABCMAWidget;
 use Elementor\Controls_Manager;
 use Elementor\Utils;
 use Elementor\Group_Control_Typography;
@@ -10,7 +10,7 @@ use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Background;
 
 
-class Main extends BaseWidget
+class Main extends ABCMAWidget
 {
 
     // define protected variables...

@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 
-use Inc\Widgets\BaseWidget;
+use Inc\Widgets\ABCMAWidget;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Background;
 use Elementor\Group_Control_Typography;
@@ -16,10 +16,10 @@ use Elementor\Group_Control_Border;
  * Elementor List Widget.
  * @since 1.0.0
  */
-class Main extends BaseWidget {
+class Main extends ABCMAWidget {
 
 	    // define protected variables...
-		protected $name = 'abc-icon-box';
+		protected $name = 'abc-ma-icon-box';
 		protected $title = 'ABC Icon Box';
 		protected $icon = 'eicon-icon-box';
 		protected $categories = [
