@@ -55,7 +55,6 @@ function  abcmafe_plugin_general_init() {
 }
 add_action( 'plugins_loaded', 'abcmafe_plugin_general_init' );
 
-
 // add custom our own category for this plugin 
 function abc_ma_add_elementor_widget_categories( $elements_manager ) {
 
