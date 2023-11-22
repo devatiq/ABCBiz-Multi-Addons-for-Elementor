@@ -39,7 +39,7 @@ class ABCBIZMAElementorPack
 	 * @since 1.0.0
 	 * @var string Minimum PHP version required to run the addon.
 	 */
-	const MINIMUM_PHP_VERSION = '8.0';
+	const MINIMUM_PHP_VERSION = '7.4';
 
 	/**
 	 * Instance
