@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: ABCBiz Multi Addons for Elementor
-Plugin URI: https://github.com/devatiq/ABCBiz-Multi-Addons-for-Elementor
+Plugin URI: https://abcplugin.com/abcbiz-multi-addons-for-elementor/
 Description: ABCBiz Multi Addons comprises a premium assortment of high-quality addons designed for the Elementor page builder. Our collection is constantly expanding, with ongoing enhancements to ensure an exceptional user experience.
 Version: 1.0
 Author: Atiqur Rahman
